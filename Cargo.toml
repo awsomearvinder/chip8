@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "chip8_parser",
+    "chip8_decompiler"
+]
