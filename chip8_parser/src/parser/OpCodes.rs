@@ -78,10 +78,10 @@ impl Display for OpCode {
                 write!(f, "ADD V{:X} V{:X}", reg, reg2)
             }
             Self::SUB_REGISTER_REGISTER(Register(reg), Register(reg2)) => {
-                write!(f, "SUB V{:X}, V{:X}", reg, reg2)
+                write!(f, "SUB V{:X} V{:X}", reg, reg2)
             }
             Self::SHR_REGISTER_REGISTER(Register(reg), Register(reg2)) => {
-                write!(f, "SHR V{:X}, V{:X}", reg, reg2)
+                write!(f, "SHR V{:X} V{:X}", reg, reg2)
             }
             Self::SUBN_REGISTER_REGISTER(Register(reg), Register(reg2)) => {
                 write!(f, "SUBN V{:X} V{:X}", reg, reg2)
